@@ -1,0 +1,26 @@
+name: Check official audition pages
+on:
+  schedule:
+    - cron: '15 13 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check pages
+        run: python scripts/check_sources.py
+      - name: Commit monitoring data
+        run: |
+          git config user.name "stage-door-bot"
+          git config user.email "stage-door-bot@users.noreply.github.com"
+          git add data/source-status.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update official casting page checks"
+            git push
+          fi
