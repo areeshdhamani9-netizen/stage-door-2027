@@ -1,34 +1,35 @@
 {
-  "checked_at": "2026-11-19 14:24 UTC",
+  "checked_at": "2026-11-20 14:23 UTC",
   "sources": {
     "creede": {
-      "status": "Checked; no change detected",
-      "checked_at": "2026-11-19 14:24 UTC",
-      "sha256": "844f5e268ea26a1c04be34dbafa83db1dcc414153342f1c21b3c5087451038ee",
-      "url": "https://creederep.org/work-with-us/job-opportunities/"
+      "status": "Check failed",
+      "checked_at": "2026-11-20 14:23 UTC",
+      "url": "https://creederep.org/work-with-us/job-opportunities/",
+      "error": "HTTPError",
+      "sha256": "844f5e268ea26a1c04be34dbafa83db1dcc414153342f1c21b3c5087451038ee"
     },
     "weathervane": {
-      "status": "Checked; no change detected",
-      "checked_at": "2026-11-19 14:24 UTC",
-      "sha256": "a6f68b88fdd6cf836689bc53935bf0f25a15e5d7428ac4830f6856c0065dbf2a",
+      "status": "Changed since previous check",
+      "checked_at": "2026-11-20 14:23 UTC",
+      "sha256": "edd5b03e355519de30a0f23ab1798abbb71b027e5fd62a401b112cca32e2f2de",
       "url": "https://weathervaneplayhouse.org/audition-information/"
     },
     "woodstock": {
       "status": "Checked; no change detected",
-      "checked_at": "2026-11-19 14:24 UTC",
+      "checked_at": "2026-11-20 14:23 UTC",
       "sha256": "0249892bc516f59bb1fe0bf5c5e320a1ec4776b94f72f9a689283ce2805cfd9f",
       "url": "https://www.woodstockplayhouse.org/employment-casting"
     },
     "fpta": {
       "status": "Checked; no change detected",
-      "checked_at": "2026-11-19 14:24 UTC",
+      "checked_at": "2026-11-20 14:23 UTC",
       "sha256": "b2cf6dff560ed91861c270d99c9bf3f0491eeff55b4f94b2892273da6b1d5e7d",
       "url": "https://www.fpta.net/audition-info"
     },
     "alhambra": {
-      "status": "Checked; no change detected",
-      "checked_at": "2026-11-19 14:24 UTC",
-      "sha256": "5a798232a153cad66854d7e22b78253a9e48dc02634f3ce3caada8b63164b242",
+      "status": "Changed since previous check",
+      "checked_at": "2026-11-20 14:23 UTC",
+      "sha256": "c01b774f2f6a15d22766df91526ebf4216503659cef64480e431a266d2887bc0",
       "url": "https://www.alhambrajax.com/employment/"
     }
   }
