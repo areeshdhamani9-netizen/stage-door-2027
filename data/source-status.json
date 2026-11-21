@@ -1,35 +1,35 @@
 {
-  "checked_at": "2026-11-20 14:23 UTC",
+  "checked_at": "2026-11-21 14:03 UTC",
   "sources": {
     "creede": {
       "status": "Check failed",
-      "checked_at": "2026-11-20 14:23 UTC",
+      "checked_at": "2026-11-21 14:03 UTC",
       "url": "https://creederep.org/work-with-us/job-opportunities/",
       "error": "HTTPError",
       "sha256": "844f5e268ea26a1c04be34dbafa83db1dcc414153342f1c21b3c5087451038ee"
     },
     "weathervane": {
       "status": "Changed since previous check",
-      "checked_at": "2026-11-20 14:23 UTC",
-      "sha256": "edd5b03e355519de30a0f23ab1798abbb71b027e5fd62a401b112cca32e2f2de",
+      "checked_at": "2026-11-21 14:03 UTC",
+      "sha256": "1a3d7ffb4e445be34b0ee07300c5f1f97f97aca2a9009aff0a12e00b4b100b2b",
       "url": "https://weathervaneplayhouse.org/audition-information/"
     },
     "woodstock": {
       "status": "Checked; no change detected",
-      "checked_at": "2026-11-20 14:23 UTC",
+      "checked_at": "2026-11-21 14:03 UTC",
       "sha256": "0249892bc516f59bb1fe0bf5c5e320a1ec4776b94f72f9a689283ce2805cfd9f",
       "url": "https://www.woodstockplayhouse.org/employment-casting"
     },
     "fpta": {
       "status": "Checked; no change detected",
-      "checked_at": "2026-11-20 14:23 UTC",
+      "checked_at": "2026-11-21 14:03 UTC",
       "sha256": "b2cf6dff560ed91861c270d99c9bf3f0491eeff55b4f94b2892273da6b1d5e7d",
       "url": "https://www.fpta.net/audition-info"
     },
     "alhambra": {
       "status": "Changed since previous check",
-      "checked_at": "2026-11-20 14:23 UTC",
-      "sha256": "c01b774f2f6a15d22766df91526ebf4216503659cef64480e431a266d2887bc0",
+      "checked_at": "2026-11-21 14:03 UTC",
+      "sha256": "41e7da8d89a9df7e36f68127bffbaf59de6125e0a2ad615c943eb625b1a05c25",
       "url": "https://www.alhambrajax.com/employment/"
     }
   }
